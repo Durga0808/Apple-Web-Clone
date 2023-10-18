@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: SF Pro Text;
+}
+header {
+  width: 100vw;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navlist {
+  /* display: flex;
+    justify-content: space-between;
+    align-items:center;*/
+  display: flex;
+  width: 996px;
+  height: 44px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 24.75px;
+  flex-shrink: 0;
+}
+
+#navlist > li {
+  list-style: none;
+}
+#navlist > li > a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: x-small;
+}
+#applelogo {
+  padding-top: 10px;
+}
+#head2 {
+  /*padding-top: 44px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  display: flex;
+  width: 100vw;
+  height: 129px;
+  padding: 3px 0px 49px 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+}
+#head2list {
+  display: flex;
+  height: 129px;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+}
+#head2list > li {
+  list-style: none;
+}
+#head2list > li > a {
+  text-decoration: none;
+  color: #ec3d43;
+  font-size: x-small;
+}
+#hero1 {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+#box1 {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#textbox1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 25px;
+}
+#p1 {
+  color: #6e6e73;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 147.059% */
+  letter-spacing: -0.374px;
+}
+#p3 {
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.008px; /* 108.349% */
+  letter-spacing: -0.144px;
+  background: linear-gradient(
+    90deg,
+    #2ca2b4 0%,
+    #5598de 24%,
+    #7f87ff 45%,
+    #f65aad 76%,
+    #ec3d43 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#p2 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+}
+#p4 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+}
+#textbox1 > ul {
+  display: flex;
+  width: 470.781px;
+  padding: 0px 132.438px;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+}
+#textbox1 > ul > li > button {
+  display: flex;
+  width: 61.203px;
+  height: 36px;
+  padding: 8px 15.6px 8px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 980px;
+  background: #0071e3;
+
+  color: #fff;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.648% */
+  letter-spacing: -0.374px;
+}
+#textbox1 > ul > li > button:hover {
+  background: aqua;
+}
+#textbox1 > ul > li > a {
+  text-decoration: none;
+  color: #06c;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+}
+#imagebox1 {
+  border: #fff;
+  width: 788px;
+  height: 717px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), lightgray 50% / contain no-repeat;
+}
