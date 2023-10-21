@@ -13,9 +13,6 @@ header {
 }
 
 #navlist {
-  /* display: flex;
-    justify-content: space-between;
-    align-items:center;*/
   display: flex;
   width: 996px;
   height: 44px;
