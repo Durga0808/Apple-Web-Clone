@@ -3,6 +3,12 @@
   padding: 0px;
   font-family: SF Pro Text;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 header {
   width: 100vw;
   height: 44px;
@@ -76,9 +82,11 @@ header {
 }
 #page1 {
   display: flex;
+  width: 95vw;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 15px;
 }
 .textbox {
   display: flex;
@@ -146,7 +154,7 @@ header {
   gap: 28px;
   list-style: none;
 }
-.btn >  li > button {
+.btn > li > button {
   display: flex;
   width: 61.203px;
   height: 36px;
@@ -166,10 +174,10 @@ header {
   line-height: 20px;
   letter-spacing: -0.374px;
 }
-.btn >  li > button:hover {
+.btn > li > button:hover {
   background: aqua;
 }
-.btn >  li > a {
+.btn > li > a {
   text-decoration: none;
   color: #06c;
   text-align: center;
@@ -188,8 +196,10 @@ header {
   background: url(<path-to-image>), lightgray 50% / contain no-repeat;
 }
 #page2 {
-  padding-top: 20px;
   display: flex;
+  padding-top: 20px;
+  width: 95vw;
+  margin: auto;
   background-color: rgba(0, 0, 0, 1);
   flex-direction: column;
   justify-content: space-between;
@@ -254,7 +264,9 @@ header {
 }
 #page3 {
   display: flex;
-  margin: 1%;
+  width: 95vw;
+  padding-top: 20px;
+  /* margin: 1%; */
   align-items: center;
   justify-content: center;
 }
@@ -298,14 +310,14 @@ header {
   line-height: 29.001px;
   letter-spacing: 0.231px;
 }
-#page4{
+#page4 {
   display: flex;
   height: 800px;
-  background-image:url(Images/background.svg);
+  width: 95vw;
+  background-image: url(Images/background.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  margin: 0% 3% 0% 3%;
   color: white;
   display: flex;
   align-items: center;
@@ -318,22 +330,20 @@ header {
 }
 
 .tour-text {
-  color: #FFF;
+  color: #fff;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
-  
+
   letter-spacing: 0.216px;
 }
 
-
 .tour h1 {
-  color: #FFF;
+  color: #fff;
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
-
 }
 
 .watch-the-film-btn {
@@ -345,7 +355,7 @@ header {
   align-items: center;
 
   border-radius: 980px;
-  background: #FFF;
+  background: #fff;
 
   color: #000;
   text-align: center;
@@ -364,7 +374,8 @@ header {
 }
 
 #comparisiontable {
-  color: #1D1D1F;
+  color: #1d1d1f;
+  width: 95vw;
   text-align: center;
   font-size: 0.8rem;
   font-style: normal;
@@ -375,22 +386,66 @@ header {
 }
 
 #comparisiontable h2 {
-  color: #1D1D1F;
+  color: #1d1d1f;
   text-align: center;
   font-size: 2.5rem;
-  font-style: normal;
   font-weight: 700;
   line-height: 52.008px;
   /* 108.349% */
   letter-spacing: -0.144px;
-
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 10px;
 }
-#table{
-  width: 65%;
-    margin: 0 auto;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(4, 1fr);
+#table {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.tablebox {
+  display: flex;
+  width: 20vw;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.tablebox > a {
+  text-decoration: none;
+}
+.tablebox > button {
+  display: flex;
+  width: 45px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 980px;
+  background: #0071e3;
+
+  color: #fff;
+  text-align: center;
+}
+#tableend{
+  display: flex;
+width: auto;
+height: 25px;
+margin-left: auto;
+margin-right: auto;
+padding-inline-start: 25%;
+padding-inline-end: 25%;
+align-items: center;
+justify-content: space-around;
+flex-shrink: 0;
+color: #06C;
+font-size: 21px;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
 }
