@@ -758,3 +758,124 @@ header {
   line-height: 32.002px; /* 133.341% */
   letter-spacing: 0.216px;
 }
+
+#deliverybox {
+  display: flex;
+  width: 80vw;
+  height: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+#deliverybox > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  row-gap: 10px;
+}
+#deliverybox > div > p:nth-child(2) {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+  text-align: center;
+}
+#deliverybox > div > p:nth-child(3) {
+  /* width: 350px; */
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29.001px; /* 138.1% */
+  letter-spacing: 0.231px;
+  text-align: center;
+}
+#deliverybox > div > p:last-child {
+  color: #06c;
+  width: 101.091px;
+  height: 25px;
+  font-size: 21px;
+}
+#page10 {
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  gap: 10px;
+}
+#page10 > p {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: -0.28px;
+  padding: 20px;
+}
+#page10 > div > {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#page10 > div > p:first-child {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.008px; /* 108.349% */
+  letter-spacing: -0.144px;
+  text-align: center;
+}
+
+#page10 > div > p:nth-child(2) {
+  color: #06c;
+  height: 25px;
+  font-size: 21px;
+}
+#page11{
+  display: flex;
+  width: 95vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 40px;
+}
+
+#page11>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+}
+#page11>div>div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  row-gap: 20px;
+}
+#page11>div>div>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  color: #06C;
+  font-size: 21px;
+}
+
+#page11>div:last-child>div>p:first-child{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52.008px; /* 108.349% */
+  letter-spacing: -0.144px
+}
+#page11>div:last-child>div>p:last-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  color: #06C;
+  font-size: 21px;
+}
